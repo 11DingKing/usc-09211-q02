@@ -1,1 +1,14 @@
-{"name":"service-shell","version":"0.1.0","private":true,"type":"module","scripts":{"start":"node src/server.mjs","test":"node --test"},"engines":{"node":">=20"}}
+{
+  "name": "space-material-chain",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "贯通实验材料提案、风险复核、备料、地面预演到上行确认的可审计服务",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
